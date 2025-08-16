@@ -1,0 +1,83 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Data directories
+data/
+documents/
+embeddings/
+
+# Test coverage
+coverage/
+.nyc_output/
+.coverage
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Chrome extension
+extension/dist/
+extension/build/
+
+# Dashboard
+dashboard/dist/
+dashboard/build/
+
+# Backend
+backend/.pytest_cache/
+backend/alembic/versions/*.py
+!backend/alembic/versions/__init__.py
+
+# Secrets and keys
+*.key
+*.pem
+*.crt
+config/secrets.json
+
+# Package manager
+package-lock.json
+yarn.lock
+poetry.lock

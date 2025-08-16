@@ -1,0 +1,47 @@
+{
+  "name": "school-copilot",
+  "version": "1.0.0",
+  "description": "Privacy-focused educational assistant Chrome extension",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:dashboard\" \"npm run dev:extension\"",
+    "dev:backend": "cd backend && python -m uvicorn main:app --reload --port 8000",
+    "dev:dashboard": "cd dashboard && npm start",
+    "dev:extension": "cd extension && npm run build:dev",
+    "build": "npm run build:extension && npm run build:dashboard",
+    "build:extension": "cd extension && npm run build",
+    "build:dashboard": "cd dashboard && npm run build",
+    "test": "npm run test:backend && npm run test:extension && npm run test:dashboard",
+    "test:backend": "cd backend && python -m pytest",
+    "test:extension": "cd extension && npm test",
+    "test:dashboard": "cd dashboard && npm test",
+    "test:e2e": "playwright test",
+    "lint": "eslint . --ext .ts,.tsx,.js,.jsx",
+    "format": "prettier --write ."
+  },
+  "keywords": [
+    "chrome-extension",
+    "education",
+    "ai-assistant",
+    "privacy",
+    "ferpa",
+    "rag"
+  ],
+  "author": "School Co-Pilot Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "@types/node": "^20.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "concurrently": "^8.2.0",
+    "eslint": "^8.50.0",
+    "eslint-plugin-react": "^7.33.0",
+    "prettier": "^3.0.0",
+    "typescript": "^5.2.0"
+  },
+  "workspaces": [
+    "extension",
+    "dashboard"
+  ]
+}

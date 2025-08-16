@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <!-- School Co-Pilot Icon -->
+  <symbol id="school-copilot-icon" viewBox="0 0 128 128">
+    <defs>
+      <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+        <stop offset="100%" style="stop-color:#1d4ed8;stop-opacity:1" />
+      </linearGradient>
+    </defs>
+    
+    <!-- Background circle -->
+    <circle cx="64" cy="64" r="60" fill="url(#grad1)" stroke="#ffffff" stroke-width="4"/>
+    
+    <!-- Book icon -->
+    <path d="M32 40 L32 88 L96 88 L96 40 Z" fill="none" stroke="#ffffff" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M32 40 L64 48 L96 40" fill="none" stroke="#ffffff" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M64 48 L64 88" stroke="#ffffff" stroke-width="2"/>
+    
+    <!-- AI assistant indicator -->
+    <circle cx="80" cy="48" r="8" fill="#10b981" stroke="#ffffff" stroke-width="2"/>
+    <circle cx="80" cy="48" r="4" fill="#ffffff"/>
+    
+    <!-- Knowledge rays -->
+    <path d="M48 32 L48 24" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+    <path d="M56 34 L60 28" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+    <path d="M72 34 L68 28" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+    <path d="M80 32 L80 24" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+  </symbol>
+  
+  <!-- Menu Icon -->
+  <symbol id="menu-icon" viewBox="0 0 24 24">
+    <path stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M3 12h18M3 6h18M3 18h18"/>
+  </symbol>
+  
+  <!-- Settings Icon -->
+  <symbol id="settings-icon" viewBox="0 0 24 24">
+    <circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="2" fill="none"/>
+    <path d="M12 1v6m0 6v6m11-7h-6m-6 0H1" stroke="currentColor" stroke-width="2"/>
+  </symbol>
+  
+  <!-- Search Icon -->
+  <symbol id="search-icon" viewBox="0 0 24 24">
+    <circle cx="11" cy="11" r="8" stroke="currentColor" stroke-width="2" fill="none"/>
+    <path d="m21 21-4.35-4.35" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+  </symbol>
+  
+  <!-- Book Icon -->
+  <symbol id="book-icon" viewBox="0 0 24 24">
+    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" stroke="currentColor" stroke-width="2" fill="none"/>
+    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" stroke="currentColor" stroke-width="2" fill="none"/>
+  </symbol>
+  
+  <!-- Help Circle Icon -->
+  <symbol id="help-icon" viewBox="0 0 24 24">
+    <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2" fill="none"/>
+    <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3" stroke="currentColor" stroke-width="2" fill="none"/>
+    <line x1="12" y1="17" x2="12.01" y2="17" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+  </symbol>
+  
+  <!-- Lightbulb Icon -->
+  <symbol id="lightbulb-icon" viewBox="0 0 24 24">
+    <path d="M9 21h6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+    <path d="M12 17c-3.31 0-6-2.69-6-6 0-3.31 2.69-6 6-6s6 2.69 6 6c0 3.31-2.69 6-6 6z" stroke="currentColor" stroke-width="2" fill="none"/>
+    <path d="M12 11v6" stroke="currentColor" stroke-width="2"/>
+  </symbol>
+  
+  <!-- Document Icon -->
+  <symbol id="document-icon" viewBox="0 0 24 24">
+    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" stroke="currentColor" stroke-width="2" fill="none"/>
+    <polyline points="14,2 14,8 20,8" stroke="currentColor" stroke-width="2" fill="none"/>
+    <line x1="16" y1="13" x2="8" y2="13" stroke="currentColor" stroke-width="2"/>
+    <line x1="16" y1="17" x2="8" y2="17" stroke="currentColor" stroke-width="2"/>
+    <polyline points="10,9 9,9 8,9" stroke="currentColor" stroke-width="2"/>
+  </symbol>
+  
+  <!-- Chat Icon -->
+  <symbol id="chat-icon" viewBox="0 0 24 24">
+    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" stroke="currentColor" stroke-width="2" fill="none"/>
+  </symbol>
+  
+  <!-- Check Icon -->
+  <symbol id="check-icon" viewBox="0 0 24 24">
+    <polyline points="20,6 9,17 4,12" stroke="currentColor" stroke-width="2" fill="none"/>
+  </symbol>
+  
+  <!-- X Icon -->
+  <symbol id="x-icon" viewBox="0 0 24 24">
+    <line x1="18" y1="6" x2="6" y2="18" stroke="currentColor" stroke-width="2"/>
+    <line x1="6" y1="6" x2="18" y2="18" stroke="currentColor" stroke-width="2"/>
+  </symbol>
+  
+  <!-- Alert Icon -->
+  <symbol id="alert-icon" viewBox="0 0 24 24">
+    <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z" stroke="currentColor" stroke-width="2" fill="none"/>
+    <line x1="12" y1="9" x2="12" y2="13" stroke="currentColor" stroke-width="2"/>
+    <line x1="12" y1="17" x2="12.01" y2="17" stroke="currentColor" stroke-width="2"/>
+  </symbol>
+  
+  <!-- Info Icon -->
+  <symbol id="info-icon" viewBox="0 0 24 24">
+    <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2" fill="none"/>
+    <line x1="12" y1="16" x2="12" y2="12" stroke="currentColor" stroke-width="2"/>
+    <line x1="12" y1="8" x2="12.01" y2="8" stroke="currentColor" stroke-width="2"/>
+  </symbol>
+  
+  <!-- External Link Icon -->
+  <symbol id="external-link-icon" viewBox="0 0 24 24">
+    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" stroke="currentColor" stroke-width="2" fill="none"/>
+    <polyline points="15,3 21,3 21,9" stroke="currentColor" stroke-width="2" fill="none"/>
+    <line x1="10" y1="14" x2="21" y2="3" stroke="currentColor" stroke-width="2"/>
+  </symbol>
+  
+  <!-- Copy Icon -->
+  <symbol id="copy-icon" viewBox="0 0 24 24">
+    <rect x="9" y="9" width="13" height="13" rx="2" ry="2" stroke="currentColor" stroke-width="2" fill="none"/>
+    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" stroke="currentColor" stroke-width="2" fill="none"/>
+  </symbol>
+</svg>

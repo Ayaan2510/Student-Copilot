@@ -1,0 +1,75 @@
+Chapter 1: Introduction to Geometry
+
+Geometry is the branch of mathematics that deals with shapes, sizes, positions, angles, and dimensions of objects. It is one of the oldest mathematical sciences.
+
+Basic geometric elements include:
+- Points: A location in space with no dimension
+- Lines: Extend infinitely in both directions
+- Planes: Flat surfaces that extend infinitely in all directions
+- Angles: Formed by two rays sharing a common endpoint
+
+Chapter 2: Triangles
+
+A triangle is a polygon with three sides and three angles. The sum of all angles in a triangle is always 180 degrees.
+
+Types of triangles by sides:
+- Equilateral: All three sides are equal
+- Isosceles: Two sides are equal
+- Scalene: All three sides are different
+
+Types of triangles by angles:
+- Acute: All angles are less than 90 degrees
+- Right: One angle is exactly 90 degrees
+- Obtuse: One angle is greater than 90 degrees
+
+The Pythagorean theorem states that in a right triangle, a² + b² = c², where c is the hypotenuse.
+
+Chapter 3: Quadrilaterals
+
+A quadrilateral is a polygon with four sides and four angles. The sum of all angles in a quadrilateral is 360 degrees.
+
+Types of quadrilaterals:
+- Square: All sides equal, all angles 90 degrees
+- Rectangle: Opposite sides equal, all angles 90 degrees
+- Rhombus: All sides equal, opposite angles equal
+- Parallelogram: Opposite sides parallel and equal
+- Trapezoid: One pair of parallel sides
+
+Chapter 4: Circles
+
+A circle is a set of all points in a plane that are equidistant from a fixed point called the center.
+
+Important circle terms:
+- Radius: Distance from center to any point on the circle
+- Diameter: Distance across the circle through the center (2 × radius)
+- Circumference: Distance around the circle (2πr or πd)
+- Area: Space inside the circle (πr²)
+
+Chapter 5: Area and Perimeter
+
+Area is the amount of space inside a shape, measured in square units.
+Perimeter is the distance around the outside of a shape.
+
+Common area formulas:
+- Rectangle: length × width
+- Triangle: ½ × base × height
+- Circle: π × radius²
+- Parallelogram: base × height
+
+Common perimeter formulas:
+- Rectangle: 2(length + width)
+- Triangle: sum of all three sides
+- Circle: 2π × radius
+
+Chapter 6: Volume and Surface Area
+
+Volume is the amount of space inside a three-dimensional object, measured in cubic units.
+Surface area is the total area of all surfaces of a three-dimensional object.
+
+Common volume formulas:
+- Cube: side³
+- Rectangular prism: length × width × height
+- Cylinder: π × radius² × height
+- Sphere: (4/3) × π × radius³
+
+These concepts are fundamental for understanding three-dimensional geometry and real-world applications.

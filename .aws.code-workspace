@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": ".aws",
+			"path": "."
+		}
+	],
+	"settings": {
+		"kiroAgent.configureMCP": "Disabled"
+	}
+}

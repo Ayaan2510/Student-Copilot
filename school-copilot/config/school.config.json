@@ -1,0 +1,35 @@
+{
+  "school": {
+    "name": "Example High School",
+    "domain": "example.edu",
+    "adminEmail": "admin@example.edu"
+  },
+  "auth": {
+    "jwtSecret": "your-jwt-secret-key-change-in-production",
+    "sessionTimeout": 3600,
+    "ssoProvider": "placeholder"
+  },
+  "storage": {
+    "documentsPath": "./data/documents",
+    "databaseUrl": "sqlite:///./data/school_copilot.db"
+  },
+  "features": {
+    "maxDailyQuestions": 50,
+    "enableAnimations": true,
+    "logRetentionDays": 90
+  },
+  "api": {
+    "baseUrl": "http://localhost:8000",
+    "corsOrigins": [
+      "chrome-extension://*",
+      "http://localhost:3000"
+    ]
+  },
+  "rag": {
+    "chunkSize": 700,
+    "chunkOverlap": 100,
+    "embeddingModel": "sentence-transformers/all-MiniLM-L6-v2",
+    "similarityThreshold": 0.7,
+    "maxResults": 5
+  }
+}
